@@ -7,7 +7,7 @@
     <li><a href="https://github.com/mazhar11-cou/Nasa-Space-Apps-Challenge-2021">Fozilatunnesa</a></li>
     <li><a href="https://github.com/Mestu-Paul">Mestu Paul</a></li>
     <li><a href="https://github.com/im-nayeem">Nayeem Hossain</a></li>
-    <li><a href="https://github.com/Belal-Uddin">Belal Uddin</a></li></pre>
+    <li><a href="https://github.com/Belal-Uddin">Belal Uddin</a></li>
 </ol>
 </br>
 </br>
