@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heat Warning</title>
+    <script src="https://kit.fontawesome.com/972c99837c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  
+<div class="form">
+<button onclick="getLocation()" class="getLocation">Click to Get Location  <i class="fas fa-map-marker-alt"></i></button>
+  <form action="img_upload.html">
+      
+      <input type="text" name="latitude" placeholder="latitude" id="lat">
+      <input type="text" name="longitude" placeholder="longitude" id="lon">
+      
+    <button type="submit" class="submit">Click to upload image</button>
+
+  </form>  
+
+  <p id="demo"></p>
+</div>
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) 
+{
+  document.getElementById("lon").value = position.coords.longitude;
+  document.getElementById("lat").value = position.coords.latitude;
+}
+</script>
+   
+</body>
+</html>
