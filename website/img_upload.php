@@ -10,18 +10,20 @@
 <body>
     <div class="form">
 
-    <form action="show.html">
+    <form action="show.php">
         <h3>Select images to upload...</h3>
         <input type="file" name="img1">
         <input type="file" name="img2">
         <input type="file" name="img3">
         <input type="file" name="img4" id="">
         <input type="file" name="img5" id="">
+        <input type="hidden" name="latitude" value=<?=$_GET['latitude'];?>>
+         <input type="hidden" name="longitude" value=<?=$_GET['longitude'];?>>
 
         <button type="submit" class="submit">Upload Images</button>
     </form>
 
 </div>
-
+<?php include "footer.php";?>
 </body>
 </html>
