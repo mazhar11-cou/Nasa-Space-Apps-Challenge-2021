@@ -12,5 +12,9 @@
     Click below to see heat warning and prevention measure in your area.</p>
 
     <button class="submit">See Warning!</button>
+
+
+<?php include "footer.php";?>
+
 </body>
 </html>
